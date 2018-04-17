@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+	body {
+		background: url(background.png);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 0px;
+		background-color: black;
+	}
+	.all-content {
+		width: 960px;
+	}
+	.header-line {
+		width: 100%;
+		height: 72px;
+		background-color: black;
+		display: flex;
+		justify-content: center;
+	}
+	.header {
+		top: 0px;
+		width: 960px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.header__array1 {
+		margin-left: 40px;
+		width: 60%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.header__array2 {
+		display: flex;
+		flex-direction: row;
+		margin-right: 80px;
+	}
+	.header__elem {
+		font-size: 17px;
+		color: white;
+	}
+	.image-log_in {
+		margin-right: 10px;
+		padding-top: 1px;
+	}
+	.image-logo {
+		margin-top: 20px;	
+		height: 290px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.content1 {
+		padding-bottom: 50px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.content1__elem {
+		display: flex;
+		flex-direction: column;
+		width: 320px;
+	}
+	.content1__title {
+		font-size: 30px;
+		text-align: center;
+		color: white;
+	}
+	.content1__text {
+		margin-right: 15px;
+		margin-left: 15px;
+		margin-top: 34px;
+		color: white;
+		text-align: center;
+		}
+	.image-rhombus {
+		padding-top: 24px;
+		text-align: center;
+	}
+	.layout__table {
+		display: flex; 
+		justify-content: space-around;
+		margin-top: 36px;
+		height: 430px;
+		background-color: #e5e5e5;
+	}
+	.layout__elem {
+		margin-top: 60px;
+		margin-bottom: 50px;
+		width: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.layout__title {
+		width: 350px;
+		font-size: 30px;
+	}
+	.layout__data {
+		font-size: 12px;
+		color: #383030;
+	}
+	.image-photogalery {
+		padding-left: 7px;
+	}
+	.layout__buttons {
+		display: flex;
+		justify-content: space-between;
+	}
+	.layout__button {
+		display: flex;
+		width: 140px;
+		height: 43px;
+		background-color: black;
+		justify-content: center;
+		align-items: center;
+	}
+	.layout__text-in-button {
+		display: flex;
+		flex-direction: row;
+		color: white;
+	}
+	.layout__form {
+		height: 105px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.layout__form-line {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.layout__cell {
+		display: flex;
+		align-items: center;
+		width: 140px;
+		height: 43px;
+		color: white;
+		border-color: black;
+		border-style: solid;
+	}
+	.layout__text-in-cell {
+		padding-left: 18px;
+		color: black;
+	}
+	.layout__button-huge {
+		display: flex;
+		width: 300px;
+		height: 43px;
+		background-color: black;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer-line {
+		height: 190px;
+		width: 100%;
+		display: flex;
+		margin-top: 65px;
+		background-color: #242424;
+		display: flex;
+		justify-content: center;
+	}
+	.footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 960px;
+	}
+	.footer__elem {
+		height: 88px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.footer__text {
+		color: white;
+	}
+	.footer__underline {
+		text-decoration: underline;
+	}
+	.footer__line {
+		display: flex;
+		justify-content: space-between;
+	}
+	.footer__image {
+		margin-left: 4px;
+		margin-right: 4px;
+		display: flex;
+		height: 43px;
+		width: 43px;
+		background-color: black;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer__button {
+		display: flex;
+		width: 140px;
+		height: 43px;
+		background-color: black;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer__text-over-button {
+		text-align: center;
+	}
+	.footer__elem-center {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		height: 88px;
+		margin: 0 160px 0 0;
+	}
+	.text {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-weight: bolder;
+		font-size: 15px;
+		line-height: 25px;
+	}
+	.huy {
+		text-decoration: none;
+		color: white;
+	}
