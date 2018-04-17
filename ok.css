@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 	body {
-		background: url(background.png);
+		background: url(images/background.png);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
